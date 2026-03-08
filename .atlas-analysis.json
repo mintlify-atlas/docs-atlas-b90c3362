@@ -1,0 +1,116 @@
+{
+  "projectType": "saas",
+  "projectName": "BidSphere",
+  "projectDescription": "A modern online auction platform for buying and selling items across various categories with real-time bidding and blockchain integration.",
+  "theme": "aspen",
+  "primaryColor": "#0284c7",
+  "lightColor": "#38bdf8",
+  "darkColor": "#0c4a6e",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/authentication",
+              "features/product-listings",
+              "features/bidding-system",
+              "features/user-dashboard",
+              "features/admin-dashboard"
+            ]
+          },
+          {
+            "group": "User Guides",
+            "pages": [
+              "guides/creating-listings",
+              "guides/placing-bids",
+              "guides/managing-profile",
+              "guides/image-uploads"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment-variables",
+              "configuration/blockchain-setup",
+              "configuration/theme-customization"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Components",
+            "pages": [
+              "api/components/navbar",
+              "api/components/product-item",
+              "api/components/search-bar",
+              "api/components/footer"
+            ]
+          },
+          {
+            "group": "Context Providers",
+            "pages": [
+              "api/context/auth-context",
+              "api/context/shop-context",
+              "api/context/theme-context"
+            ]
+          },
+          {
+            "group": "Pages",
+            "pages": [
+              "api/pages/home",
+              "api/pages/auctions",
+              "api/pages/product-detail",
+              "api/pages/user-dashboard",
+              "api/pages/admin-dashboard"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Deployment",
+        "groups": [
+          {
+            "group": "Build & Deploy",
+            "pages": [
+              "deployment/building",
+              "deployment/production-setup",
+              "deployment/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "User authentication with email verification",
+    "Real-time auction bidding system",
+    "Product listing creation with image uploads",
+    "User and admin dashboards",
+    "Blockchain integration with Web3",
+    "Dark/light theme support",
+    "Responsive design with Tailwind CSS",
+    "Category-based product organization"
+  ],
+  "publicApiSurface": [
+    "AuthContext: login, logout, isLoggedIn",
+    "ShopContext: search, products, currency",
+    "ThemeContext: isLightTheme, toggleTheme",
+    "Pages: Home, Auctions, Product, Login, Register, UserDashboard, AdminDashboard",
+    "Components: Navbar, Hero, ProductItem, SearchBar, Footer, ProductDrawer",
+    "Routes: /, /auctions, /product/:id, /login, /register, /dashboard, /admin-dashboard"
+  ]
+}
